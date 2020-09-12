@@ -2,7 +2,7 @@
 
 Decription:
 In this project you are able to control a hardaware device from your mobile through wifi (in both inside and outside of your local network).
-The mobile app (designed with MIT app invertor) sending a signal through ddns server (noip.com) to our rooter which is setted to port-forwarding the request in our esp8266.
+The mobile app (designed with MIT app invertor) sending a signal through ddns server (noip.com) to our router which is setted to port-forwarding the request in our esp8266.
 
 1) Hardware:
 Open "WaterHeaterController.ino" and upload it to your esp8266. In line 7,8 enter your wife name and password and load it to your esp.
@@ -19,8 +19,8 @@ and "http://dimihome.ddns.net:8000/gpio/x" x=1,2,3 with your ddns domain (or sub
 3) Network setings:
 In order to set up your network 
 First of all you have to set your esp device to a static port. 
-Also you have to set your rooter port forwarding to from a specific port to your esp static ip.
+Also you have to set your router port forwarding to from a specific port to your esp static ip.
  
  -HOW IT WORKS?
  -Your mobile app sends the "8000/gpio/x" message to your ddns server. This server maτches your domain/subdomain to your network ip.
- When your rooter receives this message from the ddns server forwarding the message "gpio/x" to your local port 8000 which is setted from your rooter to your esp device.
+ When your router receives this message from the ddns server forwarding the message "gpio/x" to your local port 8000 which is setted from your router to your esp device.
