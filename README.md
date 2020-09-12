@@ -1,4 +1,4 @@
-# water-heater-controller
+# water-heater-controller - IOT project
 
 Decription:
 In this project you are able to control a hardaware device from your mobile through wifi (in both inside and outside of your local network).
