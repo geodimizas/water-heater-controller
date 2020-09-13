@@ -2,7 +2,7 @@
 
 Decription:
 In this project you are able to control a hardaware device from your mobile through wifi (in both inside and outside of your local network).
-The mobile app (designed with MIT app invertor) sending a signal through ddns server (noip.com) to our router which is setted to port-forwarding the request in our esp8266.
+The mobile app (designed with MIT app invertor) sending a signal through ddns server (noip.com) to your router which is setted to port-forwarding the request in our esp8266.
 
 1) Hardware:
 Open "WaterHeaterController.ino" and upload it to your esp8266. In line 7,8 enter your wife name and password and load it to your esp.
