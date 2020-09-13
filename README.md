@@ -23,4 +23,4 @@ Also you have to set your router port forwarding to from a specific port to your
  
  -HOW IT WORKS?
  -Your mobile app sends the "8000/gpio/x" message to your ddns server. This server maτches your domain/subdomain to your network ip.
- When your router receives this message from the ddns server forwarding the message "gpio/x" to your local port 8000 which is setted from your router to your esp device.
+ When your router receives this request from the ddns server forwarding the message "gpio/x" to your local port 8000 which is setted from your router to your esp device.
