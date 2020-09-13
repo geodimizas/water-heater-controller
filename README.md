@@ -6,7 +6,7 @@ The mobile app (designed with MIT app invertor) sending a signal through ddns se
 
 1) Hardware:
 Open "WaterHeaterController.ino" and upload it to your esp8266. In line 7,8 enter your wife name and password and load it to your esp.
-When the esp receive the message "/gpio/0" turns on the D6 for 0.5 seconds, for "/gpio/1" turns on the D6 for 0.5 seconds, 
+When the esp receive the message "/gpio/0" turns on the D6 for 0.5 seconds, for "/gpio/1" turns on the D4 for 0.5 seconds, 
 for "/gpio/2" reads the temperature from the sensor and it send it to the back.
 The port D6 is connected to the relay for turning on the heater and D4 to the relay for turning of (for more details check schematic.jpg)
 
